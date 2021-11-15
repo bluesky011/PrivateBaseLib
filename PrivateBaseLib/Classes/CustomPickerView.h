@@ -16,4 +16,5 @@ typedef void (^BtnClickBlock) (UIButton *btn);
 @property (nonatomic, copy) BtnClickBlock btnClickBlock;
 - (void)show;
 - (void)dismiss;
++ (void)print;
 @end

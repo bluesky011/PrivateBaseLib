@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PrivateBaseLib: c387cdfe87ceaa2c5bd961b6542ca32ca7a01801
+  PrivateBaseLib: 1f03a2aa16fea8f18b8663e13452a13eb1d333b8
 
 PODFILE CHECKSUM: c4eb652de49822bfeb6fa35d383bf7792bfb54a1
 
