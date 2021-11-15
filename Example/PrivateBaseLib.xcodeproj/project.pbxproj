@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EAC73C667934678540FDCDB /* PrivateBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivateBaseLib.podspec; path = ../PrivateBaseLib.podspec; sourceTree = "<group>"; };
+		0EAC73C667934678540FDCDB /* PrivateBaseLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrivateBaseLib.podspec; path = ../PrivateBaseLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		50D06459C4F9990A9AC25B1D /* Pods-PrivateBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateBaseLib_Example.release.xcconfig"; path = "Target Support Files/Pods-PrivateBaseLib_Example/Pods-PrivateBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* PrivateBaseLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateBaseLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		74D6E16B18A9E854C20C4C0B /* Pods_PrivateBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA4AD425DC1670B4C159586A /* Pods-PrivateBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateBaseLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-PrivateBaseLib_Example/Pods-PrivateBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DAF05FBFD19E4BE7726B874E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DAF05FBFD19E4BE7726B874E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E80F2A5872DC490C747AEE23 /* Pods_PrivateBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateBaseLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9AA3DD074B21B61658D0E4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E9AA3DD074B21B61658D0E4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F6935BED0B66F2267E5B2792 /* Pods-PrivateBaseLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateBaseLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-PrivateBaseLib_Tests/Pods-PrivateBaseLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				674448CC535788D4E504AD6D /* Pods-PrivateBaseLib_Tests.debug.xcconfig */,
 				F6935BED0B66F2267E5B2792 /* Pods-PrivateBaseLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
